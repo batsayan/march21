@@ -1,0 +1,22 @@
+{
+  "name": "e2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "myprog": "nodemon app.js",
+    "premyprog": "clear",
+    "postmyprog": "ls -lart",
+    "start": "nodemon app.js",
+    "prestart": "clear"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4"
+  },
+  "config": {"port" : "3000"}
+}
